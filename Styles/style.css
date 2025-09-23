@@ -59,6 +59,32 @@ h1 {
   color: #57385c;
 }
 
+about-body{
+  background: #57385c;
+}
+
+.about-section {
+   padding: 160px 20px;
+}
+.about-section h1{
+  font-size: 60px;
+  line-height: 1.5;
+
+}
+
+.about-section h2{
+
+  font-size:18px ;
+  font-family: var(--default-font);
+  font-weight: 600;
+  font-style: italic;
+}
+
+.about-section-content{
+
+
+  margin: 30px;
+}
 .btn-branding{
   background:var(--branding-color) ;
   border-radius: 4px;
@@ -85,5 +111,9 @@ h1 {
   .project-description{
     padding: 0;
     text-align: center;
+  }
+  .about-section{
+    text-align: center;
+    padding: 0;
   }
 }
