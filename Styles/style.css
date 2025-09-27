@@ -106,6 +106,36 @@ text-align: center;
   padding:120px 60px;
 }
 
+.logo{
+  max-width: 150px;
+}
+nav{
+  padding: 20px 0;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+}
+
+nav li{
+  display: inline;
+  list-style:none ;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a{
+  text-decoration: none;
+  color: #57385c;
+}
+
+nav a:hover,nav li.active a{
+  color: var(--branding-color);
+  transition:all 100ms ease-in-out
+}
+
+
+
 @media(max-width:900px;){
   .project-description{
     padding: 0;
